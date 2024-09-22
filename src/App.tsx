@@ -102,7 +102,7 @@ useEffect(() => {
        {loader && <Loader />}
     
       {error && (
-        <ErrorMessage textAlign="center">❌ Sorry. Error accured - {error} </ErrorMessage>
+        <ErrorMessage textAlign="center">❌ Sorry. Error occured - {error} </ErrorMessage>
       )}
 <ImageModal
         modalIsOpen={showModal}
